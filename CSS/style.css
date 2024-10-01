@@ -5,12 +5,11 @@
     box-sizing: border-box;
 }
 
-.conteiner {
+.header-conteiner {
     width: 80%;
     max-width: 1100px;
-    height: 900px;
+    height: 70px;
     margin: auto;
-    /* background-color: lightgrey; */
 }
 
 .logo {
@@ -18,4 +17,45 @@
     display: inline-block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     vertical-align: middle;
+}
+
+.background-conteiner {
+    width: 80%;
+    max-width: 1100px;
+    height: 900px;
+    margin: auto;
+    background-color: lightgray;
+    padding-top: 40px;
+}
+
+.main-conteiner {
+    width: 80%;
+    max-width: 1100px;
+    height: 840px;
+    margin: auto;
+    background-color: white;
+}
+
+.button {
+    text-align: center;
+    padding: 5px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+
+.task {
+    width: 100px;
+    height: 30px;
+    margin: 10px 0px 10px 50px;
+    background-color: #00b4eb;
+}
+
+.search {
+    width: 125px;
+    height: 30px;
+}
+
+.divider {
+    border-color: rgb(255, 255, 255);
+    border: 1px solid lightgrey;
 }
