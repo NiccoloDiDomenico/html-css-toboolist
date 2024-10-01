@@ -5,3 +5,17 @@
     box-sizing: border-box;
 }
 
+.conteiner {
+    width: 80%;
+    max-width: 1100px;
+    height: 900px;
+    margin: auto;
+    /* background-color: lightgrey; */
+}
+
+.logo {
+    margin-top: 10px;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    vertical-align: middle;
+}
