@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header-conteiner {
@@ -15,7 +16,6 @@
 .logo {
     margin-top: 10px;
     display: inline-block;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     vertical-align: middle;
 }
 
@@ -58,4 +58,83 @@
 .divider {
     border-color: rgb(255, 255, 255);
     border: 1px solid lightgrey;
+}
+
+.list {
+    margin-top: 30px;
+    margin-left: 50px;
+    list-style: none;
+}
+
+.arrow {
+    font-size: small;
+}
+
+.under-list {
+    padding: 10px;
+    list-style: none;
+}
+
+.tag {
+    font-size: smaller;
+    display: inline-block;
+    width: 80px;
+    height: 20px;
+    line-height: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.blue {
+    background-color: #00b4eb;
+    border: 1px solid #00b4eb;
+}
+
+.purple {
+    background-color: #65246b;
+    border: 1px solid #65246b;
+}
+
+.green {
+    background-color: green;
+    border: 1px solid green;
+}
+
+.orange {
+    background-color: orange;
+    border: 1px solid orange;
+}
+
+.fuxia {
+    background-color: fuchsia;
+    border: 1px solid fuchsia;
+}
+
+.lightgreen {
+    background-color: lightgreen;
+    border: 1px solid lightgreen;
+}
+
+.check {
+    color: green;
+    display: inline-block;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid green;
+    border-radius: 50%;
+}
+
+.cross {
+    color: red;
+    display: inline-block;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid red;
+    border-radius: 50%;
 }
