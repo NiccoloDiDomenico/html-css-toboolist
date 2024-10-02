@@ -7,10 +7,11 @@
 }
 
 .header-conteiner {
-    width: 80%;
+    width: 100%;
     max-width: 1100px;
     height: 70px;
-    margin: auto;
+    margin: 20px 50px;
+    background-color: white;
 }
 
 .logo {
@@ -20,19 +21,17 @@
 }
 
 .background-conteiner {
-    width: 80%;
+    width: 100%;
     max-width: 1100px;
-    height: 900px;
     margin: auto;
     background-color: lightgray;
-    padding-top: 40px;
+    padding: 40px;
 }
 
 .main-conteiner {
     width: 80%;
     max-width: 1100px;
-    height: 840px;
-    margin: auto;
+    margin:40px 100px;
     background-color: white;
 }
 
@@ -75,6 +74,28 @@
     list-style: none;
 }
 
+.check {
+    color: green;
+    display: inline-block;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid green;
+    border-radius: 50%;
+}
+
+.cross {
+    color: red;
+    display: inline-block;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
 .tag {
     font-size: smaller;
     display: inline-block;
@@ -115,26 +136,4 @@
 .lightgreen {
     background-color: lightgreen;
     border: 1px solid lightgreen;
-}
-
-.check {
-    color: green;
-    display: inline-block;
-    text-align: center;
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
-    border: 1px solid green;
-    border-radius: 50%;
-}
-
-.cross {
-    color: red;
-    display: inline-block;
-    text-align: center;
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
-    border: 1px solid red;
-    border-radius: 50%;
 }
